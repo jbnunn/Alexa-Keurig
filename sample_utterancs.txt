@@ -1,0 +1,35 @@
+BrewIntent pour my coffee
+BrewIntent pour me a cup
+BrewIntent pour me a coffe
+BrewIntent start brewer
+BrewIntent start brewing
+BrewIntent start the brewer
+BrewIntent start my brewer
+BrewIntent brew me a cup of coffee
+BrewIntent brew some hot chocolate
+BrewIntent brew me some hot chocolate
+BrewIntent brew my hot chocolate
+BrewIntent pour me a cup of coffee
+BrewIntent give me a cup of cofffee
+BrewIntent pour me a cup of hot chocolate
+BrewIntent pour me a cup of hot water
+BrewIntent pour me a cup of water
+BrewIntent make some hot chocolate
+BrewIntent make me some hot chocolate
+BrewIntent pour some hot water
+HelpIntent help
+HelpIntent help me
+HelpIntent what can I ask you
+HelpIntent get help
+HelpIntent to help
+HelpIntent to help me
+HelpIntent what commands can I ask
+HelpIntent what commands can I say
+HelpIntent what can I do
+HelpIntent what can I use this for
+HelpIntent what questions can I ask
+HelpIntent what can you do
+HelpIntent what do you do
+HelpIntent how do I use you
+HelpIntent how can I use you
+HelpIntent what can you tell me
