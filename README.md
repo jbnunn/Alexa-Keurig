@@ -9,8 +9,8 @@ Control your Keurig B60 through your Amazon Echo, using the Alexa Skills Kit and
 4. Modify your ASK skill with the [ARN](http://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of your newly created Lambda function.
 5. Wire up a Raspberry Pi according to the schematic in [RPiKeurig_bb.png](/RPiKeurig_bb.png). The servo should be glued in place underneath the plastic silver top (see *Caveats*), so that when it fires, it rotates to push one of the brew buttons. I use the largest button.
 6. Test your interactions with the ASK console. When you've got it working, try it on your Echo: `Alexa, ask my Keurig to brew me a cup of coffee.`
-![View of servo](keurig1.jpg | width=400)
-![Keurig from the side](keurig2.jpg | width=400)
+![View of servo](keurig1.jpg =400x)
+![Keurig from the side](keurig2.jpg =400x)
 
 ## Caveat
 - *YOU WILL MOST LIKELY DAMAGE YOUR KEURIG--AND VOID YOUR WARRANTY--IF YOU DO THIS.* There are YouTube videos on how to do the dismantling, but _this is the hardest part._ You only need access to the buttons underneath the plastic silver top that covers the LCD and buttons.
