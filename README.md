@@ -1,7 +1,7 @@
 # Alexa-Keurig
 
 ## Description
-Control your Keurig B60 through your Amazon Echo, using the Alexa Skills Kit and AWS IOT service. You'll create an Alexa Skills Kit (ASK) app that fires off requests to AWS Lambda. You will register a Rasberry Pi as a [device](https://docs.aws.amazon.com/iot/latest/developerguide/create-thing.html) in AWS IoT. The Alexa app will call a function in Lambda, which will send a request to the Pi to activate a servo, which pushes down the brew button. Yes, it's a hack, but it's fun.
+Control your Keurig B60 through your Amazon Echo, using the Alexa Skills Kit and AWS IOT service. You'll create an Alexa Skills Kit (ASK) app that fires off requests to AWS Lambda. You will register a Rasberry Pi as a [device](https://docs.aws.amazon.com/iot/latest/developerguide/create-thing.html) in AWS IoT. The Alexa app will call a function in Lambda, which will send a request to the Pi to activate a servo, which pushes down the brew button and starts your brew.
 
 ## Usage
 1. Create an Alexa Skills Kit (ASK) app, using the intent schema and sample utterances in this repo. Choose an invocation name like _my Keurig_.
