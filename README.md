@@ -11,7 +11,8 @@ Control your Keurig B60 through your Amazon Echo, using the Alexa Skills Kit and
 
 ![Wiring it up](RPiKeurig_bb.png)
 
-5. Test your interactions with the ASK console. When you've got it working, try it on your Echo: `Alexa, ask my Keurig to brew me a cup of coffee.`
+
+Test your interactions with the ASK console. When you've got it working, try it on your Echo: `Alexa, ask my Keurig to brew me a cup of coffee.`
 
 ## Caveat
 - *YOU WILL MOST LIKELY DAMAGE YOUR KEURIG--AND VOID YOUR WARRANTY--IF YOU DO THIS.* There are YouTube videos on how to do the dismantling, but _this is the hardest part._ You only need access to the buttons underneath the plastic silver top that covers the LCD and buttons.
