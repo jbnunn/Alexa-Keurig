@@ -6,16 +6,19 @@ Control your Keurig B60 through your Amazon Echo, using the Alexa Skills Kit and
 ## Usage
 1. Create an Alexa Skills Kit (ASK) app, using the intent schema and sample utterances in this repo. Choose an invocation name like _my Keurig_.
 2. Use the code in `main.py` as your Lambda function that the ASK skill will call. Substitute `amzn1.echo-sdk-ams.app.<your-alexa-skills-id>` with the ID of the ASK skill you created. When you create the function, set the "Event Source" to the Alexa Skills Kit.
-4. Modify your ASK skill with the [ARN](http://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of your newly created Lambda function.
-5. Wire up a Raspberry Pi according to the schematic in [RPiKeurig_bb.png](/RPiKeurig_bb.png). The servo should be glued in place underneath the plastic silver top (see *Caveats*), so that when it fires, it rotates to push one of the brew buttons. I use the largest button.
-6. Test your interactions with the ASK console. When you've got it working, try it on your Echo: `Alexa, ask my Keurig to brew me a cup of coffee.`
+3. Modify your ASK skill with the [ARN](http://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of your newly created Lambda function.
+4. Wire up a Raspberry Pi according to the schematic in [RPiKeurig_bb.png](/RPiKeurig_bb.png). The servo should be glued in place underneath the plastic silver top (see *Caveats*), so that when it fires, it rotates to push one of the brew buttons. I use the largest button.
 
+![Wiring it up](RPIKeurig_bb.png)
 
-![The servo](keurig1.jpg)
-![Side view](keurig2.jpg)
+5. Test your interactions with the ASK console. When you've got it working, try it on your Echo: `Alexa, ask my Keurig to brew me a cup of coffee.`
 
 ## Caveat
 - *YOU WILL MOST LIKELY DAMAGE YOUR KEURIG--AND VOID YOUR WARRANTY--IF YOU DO THIS.* There are YouTube videos on how to do the dismantling, but _this is the hardest part._ You only need access to the buttons underneath the plastic silver top that covers the LCD and buttons.
+
+![The servo](keurig1.jpg)
+
+![Side view](keurig2.jpg)
 
 ## Final Product
 [The modified Keurig in action](https://vimeo.com/157068104)
